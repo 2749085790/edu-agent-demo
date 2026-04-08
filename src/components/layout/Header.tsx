@@ -48,6 +48,19 @@ export default function Header() {
                 <Link href="/growth-radar" className="block px-4 py-2 hover:bg-slate-50 text-slate-700">成长雷达</Link>
               </div>
             </div>
+            <div className="relative group">
+              <button className="flex items-center gap-1 text-blue-700 hover:text-blue-900 font-semibold">
+                🏫 学校端 <ChevronDown className="h-4 w-4" />
+              </button>
+              <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-lg border border-slate-200 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all z-10">
+                <Link href="/school" className="block px-4 py-2 hover:bg-blue-50 text-blue-700 font-semibold">🌐 三方联动生态</Link>
+                <div className="border-t border-slate-200 my-1"></div>
+                <Link href="/school/ai-teaching" className="block px-4 py-2 hover:bg-blue-50 text-blue-700">📚 AI备课平台</Link>
+                <Link href="/school/analytics" className="block px-4 py-2 hover:bg-purple-50 text-purple-700">📊 学情管理系统</Link>
+                <Link href="/school/homework" className="block px-4 py-2 hover:bg-green-50 text-green-700">✍️ 作业布置与批改</Link>
+                <Link href="/school/communication" className="block px-4 py-2 hover:bg-orange-50 text-orange-700">💬 家校沟通中心</Link>
+              </div>
+            </div>
             <Link href="/operations" className="text-slate-700 hover:text-primary-600 font-medium">
               运营看板
             </Link>
@@ -60,6 +73,8 @@ export default function Header() {
                 <Link href="/ab-test" className="block px-4 py-2 hover:bg-purple-50 text-purple-700 font-semibold">🧪 A/B测试</Link>
                 <Link href="/prd" className="block px-4 py-2 hover:bg-green-50 text-green-700 font-semibold">📄 PRD文档</Link>
                 <Link href="/competitor" className="block px-4 py-2 hover:bg-orange-50 text-orange-700 font-semibold">📈 竞品分析</Link>
+                <Link href="/sow" className="block px-4 py-2 hover:bg-cyan-50 text-cyan-700 font-semibold">📋 工作说明书</Link>
+                <Link href="/sor" className="block px-4 py-2 hover:bg-pink-50 text-pink-700 font-semibold">📖 需求规格书</Link>
                 <Link href="/demo-script" className="block px-4 py-2 hover:bg-indigo-50 text-indigo-700 font-semibold">🎬 演示脚本</Link>
                 <Link href="/ai-config" className="block px-4 py-2 hover:bg-purple-50 text-purple-700 font-semibold">🤖 AI功能配置</Link>
               </div>
