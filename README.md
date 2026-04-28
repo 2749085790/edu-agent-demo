@@ -1,10 +1,10 @@
-# 杨择学 AI 督学 Agent 🎓
+# AI Learning Agent（学习规划 Agent）🎓
 
 > 查漏补缺 · 只刷不会 · 学生 · 家长 · 老师 三方联动教育生态
 
 <div align="center">
 
-**九学王集团面向 K12 学生的 AI 教育平台 Demo，融合智能诊断 · 虚拟宠物 · 学校端三方联动，打造真正的教育生态闭环**
+**九学王集团面向 K12 学生的 AI 学习规划 Agent，融合智能诊断 · 虚拟宠物 · 学校端三方联动，打造真正的教育生态闭环**
 
 [![Next.js](https://img.shields.io/badge/Next.js-14-black?style=flat-square&logo=next.js)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/React-18-blue?style=flat-square&logo=react)](https://reactjs.org/)
@@ -229,7 +229,7 @@ edu-agent-demo/
 
 > 当前几乎所有 AI 学习机的本质都是"单机学习工具"，只服务孩子和家长，没有融入学校课堂这一核心学习场景。
 
-| 维度 | 竞品（学而思/作业帮/掌门） | 杨择学 |
+| 维度 | 竞品（学而思/作业帮/掌门） | AI Learning Agent |
 |------|--------------------------|--------|
 | 服务对象 | 学生 + 家长 | **学生 + 家长 + 老师** |
 | 数据来源 | 仅家庭学习数据 | **学校数据 + 家庭数据双轨** |
@@ -238,7 +238,7 @@ edu-agent-demo/
 
 ### 量化价值
 
-| 指标 | 传统教辅 | 杨择学 AI | 提升幅度 |
+| 指标 | 传统教辅 | AI Learning Agent | 提升幅度 |
 |------|---------|---------|---------|
 | 学习效率 | 基准 | AI 精准诊断 + 靶向练习 | **↑ 40%** |
 | 作业完成率 | 基准 | 宠物激励 + 即时反馈 | **↑ 60%** |
